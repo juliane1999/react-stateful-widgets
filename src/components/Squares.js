@@ -44,7 +44,7 @@ export default function Squares() {
 
     //id === activeSquare ? setActiveSquare(null) : setActiveSquare(id)
 
-    setActiveSquare(id === activeSquare ? null :id)
+    setActiveSquare(id === activeSquare ? null : id)
   };
 
   return (
